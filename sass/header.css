@@ -1,0 +1,103 @@
+.--button {
+  border-style: none;
+  background: #4F9CF9;
+  border-radius: 8px;
+}
+
+.header {
+  align-self: stretch;
+  background: #043873;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__logo-img {
+  margin: 1rem;
+}
+.header__logo-text {
+  font-size: 1.4rem;
+}
+.header__content {
+  margin-left: 1rem;
+  margin-right: 1.5rem;
+  height: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__burger-span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__span {
+  display: block;
+  width: 3.8rem;
+  height: 4px;
+  background: white;
+  border-radius: 10px;
+}
+.header__burger-pc-buttons {
+  display: none;
+  align-self: center;
+  margin-right: 1.5rem;
+}
+.header__buttons-low {
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0);
+  margin-left: 2rem;
+  border: none;
+  color: white;
+}
+.header__button-login {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+  margin-left: 2rem;
+  background: #FFE492;
+  border-style: none;
+  color: #043873;
+  transition: 0.6s;
+}
+.header__button-login:hover {
+  background: #4F9CF9;
+  border-color: #4F9CF9;
+}
+.header__button-trial {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 8px;
+  background: #4F9CF9;
+  border-style: none;
+  color: white;
+  transition: 0.6s;
+}
+.header__button-trial:hover {
+  background: #FFE492;
+}
+.header__burger-open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: -100vw;
+  top: 0px;
+  min-width: 100%;
+  background: #043873;
+  width: 20vw;
+  height: 35vh;
+  transition: 0.8s;
+  transition-timing-function: cubic-beizer(0.17, 0.67, 0.83, 0.67);
+}
+.header__burger-animation {
+  right: 0;
+}
+
+/*# sourceMappingURL=header.css.map */
