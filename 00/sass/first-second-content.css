@@ -1,0 +1,63 @@
+.--button {
+  border-style: none;
+  background: #4F9CF9;
+  border-radius: 8px;
+}
+
+.main-second {
+  color: black;
+  background: white;
+}
+.main-second__firstText {
+  color: #212529;
+  font-size: 3rem;
+  width: 70%;
+  text-align: center;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3.5rem;
+}
+.main-second__secondText {
+  color: #212529;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 94%;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-second__btn-getStarted {
+  padding: 1.5rem;
+  width: 13rem;
+  border-radius: 8px;
+  display: block;
+  margin-top: 3.5rem;
+  margin-bottom: 4.5rem;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.main-second__img-one {
+  background: #C4DEFD;
+  width: 90%;
+  height: 40rem;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-second__img-two {
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding-bottom: 4.2rem;
+}
+
+/*# sourceMappingURL=first-second-content.css.map */
